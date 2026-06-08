@@ -1,0 +1,65 @@
+\documentclass[
+  english,
+  a4paper,
+  sdaps_style=qr,
+  checkmode= check
+]{sdapsclassic}
+
+
+% removes "DRAFT" watermark
+\ExplSyntaxOn
+\bool_gset_false:N \g_sdaps_draft_bool 
+\ExplSyntaxOff
+
+\title{Geriatric Depression Scale (short form)}
+\author{}
+\date{}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\begin{questionnaire}[noinfo]
+\addinfo{scale_id}{gds}
+
+\section{Staff Use Only}
+    \textbox*[var=worker_id]{0.8cm}{ID:}
+    \textbox*[var=week]{0.8cm}{Week:}
+    \begin{optionquestion}[cols=3, var=timepoint]{Timepoint:}
+        \choiceitem{Pre}
+        \choiceitem{Baseline}
+        \choiceitem{Post}
+    \end{optionquestion}
+
+\section{Identification}
+    \textbox*[var=participant_name]{0.8cm}{Name:}
+    \textbox*[var=date]{0.8cm}{Date:}
+
+\section{Scale}
+Circle the answer that best describes how you felt over the \underline{past week}.
+
+\begin{optiongroup}[colsep=5pt, rowsep=10pt]{}
+    \choice[val=1]{Yes}
+    \choice[val=0]{No}
+
+    \question[var=Are_you_basically_satisfied_with_your_life]{Are you basically satisfied with your life?}
+    \question[var=Have_you_dropped_many_of_your_activities_and_interests]{Have you dropped many of your activities and interests?}
+    
+    \question[var=Do_you_feel_that_your_life_is_empty]{Do you feel that your life is empty?}
+    
+    \question[var=Do_you_often_get_bored]{Do you often get bored?}
+    \question[var=Are_you_in_good_spirits_most_of_the_time]{Are you in good spirits most of the time?}
+    \question[var=Are_you_afraid_that_something_bad_is_going_to_happen_to_you]{Are you afraid that something bad is going to happen to you?}
+    
+    \question[var=Do_you_feel_happy_most_of_the_time]{Do you feel happy most of the time?}
+    
+    \question[var=Do_you_often_feel_helpless]{Do you often feel helpless?}
+    \question[var=Do_you_prefer_to_stay_at_home_rather_than_going_out_and_doing_new_things]{Do you prefer to stay at home, rather than going out and doing new things?}
+    \question[var=Do_you_feel_that_you_have_more_problems_with_memory_than_most]{Do you feel that you have more problems with memory than most?}
+    \question[var=Do_you_think_it_is_wonderful_to_be_alive_now]{Do you think it is wonderful to be alive now?}
+    \question[var=Do_you_feel_worthless_the_way_you_are_now]{Do you feel worthless the way you are now?}
+    \question[var=Do_you_feel_full_of_energy]{Do you feel full of energy?}
+    \question[var=Do_you_feel_that_your_situation_is_hopeless]{Do you feel that your situation is hopeless?}
+    \question[var=Do_you_think_that_most_people_are_better_off_than_you_are]{Do you think that most people are better off than you are?}
+\end{optiongroup}
+\end{questionnaire}
+\end{document}

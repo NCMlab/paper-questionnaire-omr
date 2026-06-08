@@ -1,0 +1,68 @@
+\documentclass[
+  english,
+  a4paper,
+  sdaps_style=qr,
+  checkmode= check
+]{sdapsclassic}
+
+
+% removes "DRAFT" watermark
+\ExplSyntaxOn
+\bool_gset_false:N \g_sdaps_draft_bool 
+\ExplSyntaxOff
+
+\title{Geriatric Anxiety Scale (short form)}
+\author{}
+\date{}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\begin{questionnaire}[noinfo]
+\addinfo{scale_id}{gas}
+
+\section{Staff Use Only}
+    \textbox*[var=worker_id]{0.8cm}{ID:}
+    \textbox*[var=week]{0.8cm}{Week:}
+    \begin{optionquestion}[cols=3, var=timepoint]{Timepoint:}
+        \choiceitem{Pre}
+        \choiceitem{Baseline}
+        \choiceitem{Post}
+    \end{optionquestion}
+
+\section{Identification}
+    \textbox*[var=participant_name]{0.8cm}{Name:}
+    \textbox*[var=date]{0.8cm}{Date:}
+
+\section{Scale}
+Please read each item carefully. Indicate how often you have experienced each symptom during the \underline{past week}.
+
+\vspace{5mm}
+
+\begin{optiongroup}[colsep=5pt, rowsep=10pt]{}
+    \choice[val=0]{Not at all}
+    \choice[val=1]{Sometimes}
+    \choice[val=2]{Most of the time}
+    \choice[val=3]{All of the time}
+
+    \question[var=I_was_irritable]{I was irritable.}
+    
+    \question[var=I_felt_detached_or_isolated_from_others]{I felt detached or isolated from others.}
+    
+    \question[var=I_felt_like_I_was_in_a_daze]{I felt like I was in a daze.}
+    
+    \question[var=I_had_a_hard_time_sitting_still]{I had a hard time sitting still.}
+    
+    \question[var=I_could_not_control_my_worry]{I could not control my worry.}
+    
+    \question[var=I_felt_restless_keyed_up_or_on_edge]{I felt restless, keyed up, or on edge.}
+    
+    \question[var=I_felt_tired]{I felt tired.}
+    
+    \question[var=My_muscles_were_tense]{My muscles were tense.}
+    
+    \question[var=I_felt_like_I_had_no_control_over_my_life]{I felt like I had no control over my life.}
+    \question[var=I_felt_like_something_terrible_was_going_to_happen_to_me]{I felt like something terrible was going to happen to me.}
+\end{optiongroup}
+\end{questionnaire}
+\end{document}
