@@ -58,3 +58,1294 @@ Processed 2 of 3 sheets, took 0.979869 seconds
 ------------------------------------------------------------------------------
 - SDAPS -- csvdata_export
 ------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/sheet_widget.py", line 212, in do_motion_notify_event
+    self._edge_drag_obj.gui.move_edge(self._edge_drag_data, mm_x, mm_y)
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/buddies.py", line 176, in move_edge
+    corners[BOTTOM_RIGHT] = (self.obj.survey.defs.paper_width - defs.corner_mark_right, self.obj.survey.defs.paper_height - defs.corner_mark_bottom)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sdaps.defs' has no attribute 'corner_mark_right'. Did you mean: '_corner_mark_right'?

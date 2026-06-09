@@ -6,6 +6,7 @@ List the files in teh Dropbox folder
 # This command syncs all files from Fropbox to the local Developer server. It only copies new ones.
 # I may be able to remove the interactive command.
  rclone sync --interactive /home/steffejr/PaperQuestionnaires/DropboxFolder DropboxRClone:incoming
+rclone sync  DropboxRClone:incoming ~/PaperQuestionnaires/DropboxFolder/
 
 I can use VSCode an connect to teh code onteh development server to edits .tex files and the PDF
 
@@ -19,3 +20,18 @@ sdaps.py stamp PROJECT/ -r 5
 estionnaires/DropboxFolder/Adobe\ Scan\ Jun.\ 08,\ 2026.pdf 
 
 convert ~/PaperQuestionnaires/DropboxFolder/Adobe\ Scan\ Jun.\ 08,\ 2026.pdf -monochrome -compress Group4 TestGAS.tiff
+
+
+## Start the broadway
+Here are the commands from yesterday:
+
+Start the Broadway display server (background):
+
+
+broadwayd :5 &
+Launch the sdaps GUI via Broadway:
+
+
+GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 ~/PaperQuestionnaires/sdaps/sdaps.py gui ~/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/
+
+https://jatos-dev.ncmlab.ca/broadway/
