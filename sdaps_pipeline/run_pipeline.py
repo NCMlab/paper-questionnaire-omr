@@ -2,6 +2,7 @@ import os
 import subprocess
 import shutil
 import glob
+import sys
 import datetime
 
 # =========================
@@ -11,6 +12,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INCOMING_DIR = os.path.join(BASE_DIR, "sortedSurveys")
 PROJECTS_DIR = os.path.join(BASE_DIR, "projects")
 OUTPUT_DIR = os.path.join(BASE_DIR, "csv_outputs")
+
+# Use the patched sdaps checkout (adds OCR-training capture/export support)
+# rather than the system-wide "sdaps" (an unpatched v1.9.13 install).
+SDAPS = [sys.executable, os.path.expanduser("~/PaperQuestionnaires/sdaps/sdaps.py")]
 
 print("🚀 Starting SDAPS pipeline...")
 
@@ -51,9 +56,8 @@ for folder_name in os.listdir(INCOMING_DIR):
         img_path = os.path.join(folder_path, img)
         print(f"  ➕ Adding {img}")
         try:
-            subprocess.run([
-                "sdaps", "add", project_path, "--convert", img_path
-            ], check=True)
+            subprocess.run(
+                SDAPS + ["add", project_path, "--convert", img_path], check=True)
         except subprocess.CalledProcessError as e:
             print(f"  ❌ Failed to add {img}: {e}")
             continue
@@ -63,7 +67,7 @@ for folder_name in os.listdir(INCOMING_DIR):
     # =========================
     print("  🔍 Recognizing...")
     try:
-        subprocess.run(["sdaps", "recognize", project_path], check=True)
+        subprocess.run(SDAPS + ["recognize", project_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"  ❌ Failed to recognize {folder_name}: {e}")
         continue
@@ -73,7 +77,7 @@ for folder_name in os.listdir(INCOMING_DIR):
     # =========================
     print("  📤 Exporting CSV...")
     try:
-        subprocess.run(["sdaps", "export", "csv", project_path], check=True)
+        subprocess.run(SDAPS + ["export", "csv", project_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"  ❌ Failed to export CSV for {folder_name}: {e}")
         continue

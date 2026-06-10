@@ -1,6 +1,11 @@
 #!/bin/bash
 set -e
 
+cd "$(dirname "$0")"
+
+echo "Syncing new scans from Dropbox..."
+rclone sync DropboxRClone:incoming newSurveys/
+
 echo "Running create_projects.sh..."
 ./create_projects.sh
 

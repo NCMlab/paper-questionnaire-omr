@@ -501,3 +501,28 @@ Processed 2 of 4 sheets, took 209.097553 seconds
 ------------------------------------------------------------------------------
 - SDAPS -- gui
 ------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/__init__.py", line 67, in main
+    return cmdline['_func'](cmdline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/script.py", line 126, in decorated_function
+    result = function(cmdline)
+             ^^^^^^^^^^^^^^^^^
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/cmdline/gui.py", line 39, in gui
+    from sdaps import gui
+  File "/home/steffejr/PaperQuestionnaires/sdaps/sdaps/gui/__init__.py", line 24, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- ocrtraining_export
+------------------------------------------------------------------------------
+Exported 0 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/ocr_training_export

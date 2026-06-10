@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SDAPS Review Dashboard</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 0.5em 1em; text-align: left; }
+    th { background: #f0f0f0; }
+    .flash { background: #fff3cd; border: 1px solid #ffeeba; padding: 0.5em 1em; margin-bottom: 1em; }
+    .badge { display: inline-block; padding: 0.1em 0.6em; border-radius: 4px; font-size: 0.9em; }
+    .badge-ok { background: #d4edda; }
+    .badge-pending { background: #f8d7da; }
+    button { padding: 0.3em 1em; }
+  </style>
+</head>
+<body>
+  <h1>SDAPS Review Dashboard</h1>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  {% if session %}
+    <p><strong>{{ session.project }}</strong> is currently open for review.
+       <a href="{{ url_for('review', project=session.project) }}">Resume review</a></p>
+  {% endif %}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Sheets</th>
+        <th>Status</th>
+        <th>Last export</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for p in projects %}
+      <tr>
+        <td>{{ p.name }}</td>
+        <td>{{ p.total }}</td>
+        <td>
+          {% if p.total == 0 %}
+            <span class="badge">no sheets yet</span>
+          {% elif p.unverified %}
+            <span class="badge badge-pending">{{ p.unverified }} unreviewed</span>
+          {% else %}
+            <span class="badge badge-ok">all reviewed</span>
+          {% endif %}
+        </td>
+        <td>{{ p.last_export or "never" }}</td>
+        <td>
+          <form method="post" action="{{ url_for('start_review', project=p.name) }}">
+            <button type="submit"
+              {% if session and session.project != p.name %}disabled{% endif %}>
+              {% if session and session.project == p.name %}Resume{% else %}Open for Review{% endif %}
+            </button>
+          </form>
+        </td>
+      </tr>
+      {% else %}
+      <tr><td colspan="5">No projects found in <code>projects/</code> yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

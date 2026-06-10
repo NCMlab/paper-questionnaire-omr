@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Reviewing {{ project }}</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body { font-family: sans-serif; display: flex; flex-direction: column; }
+    header {
+      padding: 0.5em 1em; background: #f0f0f0;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .hint { font-size: 0.9em; color: #555; margin-top: 0.2em; }
+    iframe { flex: 1; border: none; width: 100%; }
+    button { padding: 0.4em 1em; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <strong>Reviewing: {{ project }}</strong>
+      <div class="hint">
+        Save your changes (Ctrl+S) in the GUI below before clicking
+        "Finish Review".
+      </div>
+    </div>
+    <div>
+      <a href="{{ url_for('dashboard') }}">Back to dashboard</a>
+      &nbsp;
+      <form method="post" action="{{ url_for('finish_review', project=project) }}" style="display:inline">
+        <button type="submit">Finish Review</button>
+      </form>
+    </div>
+  </header>
+  <iframe src="/broadway/" title="SDAPS GUI"></iframe>
+</body>
+</html>
