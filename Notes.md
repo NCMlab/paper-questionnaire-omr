@@ -77,3 +77,8 @@ https://jatos-dev.ncmlab.ca/broadway/
 
 
 sdaps.py export ocr-training -f "verified" JASONtest/GAS006
+
+// This is the website for reviewing sdpas recognition.
+https://jatos-dev.ncmlab.ca/review/
+
+I need to generate the updated sdaps projects. Print some questionaires, fill them out, scan them. Then run the sdaps pipeline before going to this website.
