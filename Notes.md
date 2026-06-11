@@ -82,3 +82,11 @@ sdaps.py export ocr-training -f "verified" JASONtest/GAS006
 https://jatos-dev.ncmlab.ca/review/
 
 I need to generate the updated sdaps projects. Print some questionaires, fill them out, scan them. Then run the sdaps pipeline before going to this website.
+
+# Step by Step
+- Add .tex files to the tex_sources folder
+- Run create_projects.sh
+- ensure the site_names.txt file is available
+- stamp files
+    - ~/PaperQuestionnaires/sdaps/sdaps.py stamp -f projects/site_names.txt projects/gas-en/
+    

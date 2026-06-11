@@ -11,7 +11,8 @@
   english,
   a4paper,
   sdaps_style=code128,
-  checkmode=check
+  checkmode=check,
+  print_questionnaire_id
 ]{sdapsclassic}
 
 % Charter: a serif font with a large x-height and open letterforms,
@@ -41,8 +42,8 @@
 %   c_sdaps_barcode_bar_width_dim — width of each individual bar (default: 0.33mm);
 %                                   increasing this makes the whole barcode wider.
 %                                   Do not exceed ~0.66mm or it may not fit the margin.
-\dim_gset:Nn \c_sdaps_barcode_height_dim  { 13mm }
-\dim_gset:Nn \c_sdaps_barcode_bar_width_dim { 0.65mm }
+\dim_gset:Nn \c_sdaps_barcode_height_dim  { 10mm }
+\dim_gset:Nn \c_sdaps_barcode_bar_width_dim { 0.4mm }
 
 \ExplSyntaxOff
 

@@ -126,6 +126,7 @@
 \RequirePackage{ifthen}
 
 \RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
 
 \RequirePackage{color}
 

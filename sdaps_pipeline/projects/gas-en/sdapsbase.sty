@@ -1217,7 +1217,7 @@
 \dim_gset:Nn \g_sdaps_edge_right_margin_dim { 10mm }
 \dim_gset:Nn \g_sdaps_edge_top_margin_dim { 12mm }
 \dim_gset:Nn \g_sdaps_edge_bottom_margin_dim { 12mm }
-\dim_gset:Nn \g_sdaps_edge_marker_linewidth_dim { 1bp }
+\dim_gset:Nn \g_sdaps_edge_marker_linewidth_dim { 3bp }
 \dim_gset:Nn \g_sdaps_edge_marker_length_dim { 20mm }
 
 \dim_gset:Nn \g_sdaps_classic_boxpad_dim { 3mm }
@@ -1295,7 +1295,7 @@
               \barheight = \c_sdaps_barcode_height_dim
               \code_render:V \g__sdaps_questionnaire_id_tl
             };
-            \node[below=1mm~of~barcode,distance=0,anchor=north,outer~sep=0,inner~sep=0]{
+            \node[above=1mm~of~barcode,distance=0,anchor=south,outer~sep=0,inner~sep=0]{
               \tl_if_empty:VTF \g_sdaps_questionnaire_id_label_tl {
                 \tl_use:N \g__sdaps_questionnaire_id_tl
               } {
@@ -1316,7 +1316,7 @@
             \barheight = \c_sdaps_barcode_height_dim
             \code_render:x {\tl_use:N\g_sdaps_survey_id_tl \paddedpage}
           };
-          \node[below=1mm~of~barcode,distance=0,anchor=north,outer~sep=0,inner~sep=0]{
+          \node[above=1mm~of~barcode,distance=0,anchor=south,outer~sep=0,inner~sep=0]{
             % TODO: do not hardcode the font!
             \ttfamily\footnotesize
 
@@ -1332,7 +1332,7 @@
               \barheight = \c_sdaps_barcode_height_dim
               \code_render:V \g_sdaps_global_id_tl
             };
-            \node[below=1mm~of~barcode,distance=0,anchor=north,outer~sep=0,inner~sep=0]{
+            \node[above=1mm~of~barcode,distance=0,anchor=south,outer~sep=0,inner~sep=0]{
               % TODO: do not hardcode the font!
               \ttfamily\footnotesize
 

@@ -26,6 +26,24 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("SDAPS_REVIEW_SECRET", os.urandom(24))
 
 
+class PrefixMiddleware:
+    """Apache strips the "/review" prefix before proxying requests to this
+    app, so routes below are defined without it. Set SCRIPT_NAME so that
+    url_for() still generates "/review/..." links for the browser, which
+    go back through the Apache proxy."""
+
+    def __init__(self, wsgi_app, prefix):
+        self.wsgi_app = wsgi_app
+        self.prefix = prefix
+
+    def __call__(self, environ, start_response):
+        environ["SCRIPT_NAME"] = self.prefix
+        return self.wsgi_app(environ, start_response)
+
+
+app.wsgi_app = PrefixMiddleware(app.wsgi_app, "/review")
+
+
 def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE) as f:
@@ -124,7 +142,7 @@ def dashboard():
         "dashboard.html", projects=list_projects(), session=active_session())
 
 
-@app.route("/review/<project>/start", methods=["POST"])
+@app.route("/<project>/start", methods=["POST"])
 def start_review(project):
     project_path = os.path.join(PROJECTS_DIR, project)
     if not os.path.isdir(project_path):
@@ -151,7 +169,7 @@ def start_review(project):
     return redirect(url_for("review", project=project))
 
 
-@app.route("/review/<project>")
+@app.route("/<project>")
 def review(project):
     session = active_session()
     if not session or session["project"] != project:
@@ -162,7 +180,7 @@ def review(project):
     return render_template("review.html", project=project)
 
 
-@app.route("/review/<project>/finish", methods=["POST"])
+@app.route("/<project>/finish", methods=["POST"])
 def finish_review(project):
     session = active_session()
     if session and session["project"] == project:

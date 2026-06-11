@@ -10,7 +10,7 @@ scale_id = gas
 # These values are not read back, they exist for information only!
 paper_width = 210.0
 paper_height = 297.0
-print_questionnaire_id = False
+print_questionnaire_id = True
 print_survey_id = True
 style = code128
 duplex = False
@@ -24,5 +24,5 @@ engine = pdflatex
 [questionnaire]
 # These values are not read back, they exist for information only!
 page_count = 1
-survey_id = 1516373531
+survey_id = 207375272
 
