@@ -11,7 +11,7 @@ sdaps_pipeline/logs/
 
 
 # OCR training data captured/exported by sdaps
-sdaps_pipeline/projects/*/ocr_training/
-sdaps_pipeline/projects/*/ocr_training_export/
+# sdaps_pipeline/projects/*/ocr_training/
+# sdaps_pipeline/projects/*/ocr_training_export/
 
 OldText_Sources/
