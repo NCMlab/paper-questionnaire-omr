@@ -81,3 +81,94 @@ Exported 4 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-quest
 - SDAPS -- ocrtraining_export
 ------------------------------------------------------------------------------
 Exported 4 (image, text) pairs to sdaps_pipeline/projects/gas-en/ocr_training_export
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-oh_pqisu.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-jevb7vpm.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+4 sheets
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|                                                                                                                      | 0/478 [00:00<?, ?it/s]Loading weights:  96%|#####################################################################################################3    | 457/478 [00:00<00:00, 4561.85it/s]Loading weights: 100%|##########################################################################################################| 478/478 [00:00<00:00, 4581.96it/s]
+[transformers] [1mVisionEncoderDecoderModel LOAD REPORT[0m from: microsoft/trocr-base-handwritten
+Key                         | Status  | 
+----------------------------+---------+-
+encoder.pooler.dense.bias   | [31mMISSING[0m | 
+encoder.pooler.dense.weight | [31mMISSING[0m | 
+
+Notes:
+- [31mMISSING:[0m	[3mthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.[0m
+/home/steffejr/.local/lib/python3.12/site-packages/transformers/generation/utils.py:1612: UserWarning: Using the model-agnostic default `max_length` (=21) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+Warning: Could not read questionnaire ID of either 4.tif, 1 or DUMMY, 0!
+/home/steffejr/.local/lib/python3.12/site-packages/transformers/generation/utils.py:1612: UserWarning: Using the model-agnostic default `max_length` (=21) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+Processed 2 of 4 sheets, took 14.753700 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- ocrtraining_export
+------------------------------------------------------------------------------
+Exported 4 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/ocr_training_export
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- ocrtraining_export
+------------------------------------------------------------------------------
+Exported 8 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/ocr_training_export
+------------------------------------------------------------------------------
+- SDAPS -- ocrtraining_export
+------------------------------------------------------------------------------
+Exported 8 (image, text) pairs to projects/gas-en/ocr_training_export
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/478 [00:00<?, ?it/s]Loading weights: 100%|##########| 478/478 [00:00<00:00, 4901.85it/s]
+[transformers] [1mVisionEncoderDecoderModel LOAD REPORT[0m from: microsoft/trocr-base-handwritten
+Key                         | Status  | 
+----------------------------+---------+-
+encoder.pooler.dense.bias   | MISSING | 
+encoder.pooler.dense.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/home/steffejr/.local/lib/python3.12/site-packages/transformers/generation/utils.py:1612: UserWarning: Using the model-agnostic default `max_length` (=21) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- ocrtraining_export
+------------------------------------------------------------------------------
+Exported 6 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/ocr_training_export
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- ocrtraining_export
+------------------------------------------------------------------------------
+Exported 8 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/ocr_training_export
