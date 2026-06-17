@@ -209,6 +209,11 @@ for folder_name in os.listdir(INCOMING_DIR):
     # along with the questionnaire name.
     # These things need to have the same names as in the JATOS dB.
 
+
+    from jwcrypto import jwt, jwk
+    key = jwk.JWK(generate='oct', size=256)
+    key.export()
+    
     # =========================
     # STEP 5: MOVE IMAGES
     # =========================
