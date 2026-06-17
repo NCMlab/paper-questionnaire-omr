@@ -4,6 +4,47 @@ import shutil
 import glob
 import sys
 import datetime
+import re
+import json
+import pandas as pd
+# =========================
+# FUNCTIONS
+# =========================
+def get_scale_id(tex_path: str) -> str | None:
+    """Return the scale_id value from \\addinfo{scale_id}{...} in a SDAPS .tex file."""
+    pattern = re.compile(r'\\addinfo\{scale_id\}\{([^}]+)\}')
+    with open(tex_path) as f:
+        m = pattern.search(f.read())
+    return m.group(1) if m else None
+
+
+def get_question_vars(tex_path: str) -> dict[str, str]:
+    """Return {var: question_text} for every \\question line in a SDAPS .tex file."""
+    pattern = re.compile(r'\\question\[.*?var=([^,\]]+).*?\]\{([^}]*)\}', re.DOTALL)
+    with open(tex_path) as f:
+        return {var.strip(): text.strip() for var, text in pattern.findall(f.read())}
+
+
+def get_choice_values(tex_path: str) -> dict[int, str]:
+    """Return {val: label} for every \\choice[val=N]{...} in a SDAPS .tex file.
+
+    Handles both plain labels (\\choice[val=N]{text}) and parbox-wrapped labels
+    (\\choice[val=N]{\\parbox[...]{...}{\\centering text}}).
+    """
+    with open(tex_path) as f:
+        content = f.read()
+
+    result = {}
+    # Match \choice[val=N]{...} — capture the numeric value and the raw content
+    for m in re.finditer(r'\\choice\[val=(\d+)\]\{((?:[^{}]|\{[^{}]*\})*)\}', content):
+        val = int(m.group(1))
+        raw = m.group(2).strip()
+        # Strip \parbox[opt]{width}{\centering label} wrapper if present
+        parbox_m = re.search(r'\\centering\s+([^}]*)', raw)
+        label = parbox_m.group(1).strip() if parbox_m else raw
+        result[val] = label
+    return result
+
 
 # =========================
 # CONFIG
@@ -104,6 +145,69 @@ for folder_name in os.listdir(INCOMING_DIR):
         print(f"  ✅ Copied: {latest_file} → {destination}")
     else:
         print("  ⚠️ No data files found")
+    
+
+    project_path = '/home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en'
+    # Get the question variables from the .tex file
+    questionnaire_path = os.path.join(project_path, "questionnaire.tex")
+    questions = get_question_vars(questionnaire_path)
+    questions_keys = questions.keys()
+    questionnaire_choices = get_choice_values(questionnaire_path)
+
+    questionnaire_id = get_scale_id(questionnaire_path)
+    # Read the latest file
+    data_files = glob.glob(os.path.join(project_path, "data_*.csv"))
+    latest_file = max(data_files, key=os.path.getctime)
+    incoming_data = pd.read_csv(latest_file)
+    
+    # Get the valid row and verified rows
+    ValidVerifiedRows = ((incoming_data.verified == 1) & (incoming_data.valid == 1))
+    jCount = 0
+    # Buid the JSON data
+    outData = []
+    rowCount = 0
+    for row in ValidVerifiedRows:
+        if ( row ): 
+            tempData = {
+                "AllResults":
+                    {
+                        "ScoreName": questionnaire_id,
+                        "ShortTitle": questionnaire_id,
+                    },
+                "NumericResults":
+                    {},
+                "jatosWorkerID": incoming_data.loc[rowCount,'worker_id'],
+                "jatosBatchID": incoming_data.loc[rowCount,'questionnaire_id'],
+            }
+
+
+            outData.append(tempData)
+        rowCount += 1
+    
+    rowCount = 0
+    for row in ValidVerifiedRows:
+        if ( row ): 
+
+            for j in questions_keys:
+                outData[rowCount]['AllResults'][questions[j]] = questionnaire_choices[incoming_data.loc[3,j]]
+                outData[rowCount]['NumericResults'][j] = incoming_data.loc[3,j]
+        rowCount += 1
+
+    json_array = json.dumps(outData, indent=4, default=str)
+    print(json_array)
+    # =========================
+    # How to get the data to a database?
+    # =========================
+    # Ideally, this should be pushed to a data database instead of trying to squeeze 
+    # it into the JATOS dB.
+
+    # To get this into the JATOS dB, it also needs to pass through the scoring 
+    # algorithms in NCM.
+    # I would need some script that runs on the JATOS server that listens to incoming data.
+    # It then parses what it reads.
+    # I think that the tex file needs to have the JATOS Component Name in its meta data 
+    # along with the questionnaire name.
+    # These things need to have the same names as in the JATOS dB.
 
     # =========================
     # STEP 5: MOVE IMAGES
