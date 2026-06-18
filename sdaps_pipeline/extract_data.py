@@ -54,6 +54,7 @@ def get_choice_values(tex_path: str) -> dict[int, str]:
 # CONFIG
 # =========================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = '/home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline'
 INCOMING_DIR = os.path.join(BASE_DIR, "sortedSurveys")
 PROJECTS_DIR = os.path.join(BASE_DIR, "projects")
 OUTPUT_DIR = os.path.join(BASE_DIR, "csv_outputs")
@@ -194,7 +195,7 @@ for folder_name in os.listdir(INCOMING_DIR):
     print("  🔐 Sending data to JATOS...")
 
     JATOS_PUBLIX_URL = "http://127.0.0.1:9000/publix/"
-    JATOS_STUDY_ID = "w0F1qNBOba0"
+    JATOS_STUDY_ID = "J79Fx7orRl2"
     JATOS_QUERY = "?UsageType=DataReceive&Data={encrypted_data}"
 
     public_key = load_public_key(PUBLIC_KEY_PATH)

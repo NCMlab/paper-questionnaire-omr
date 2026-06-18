@@ -172,3 +172,6 @@ Exported 6 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-quest
 - SDAPS -- ocrtraining_export
 ------------------------------------------------------------------------------
 Exported 8 (image, text) pairs to /home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en/ocr_training_export
+------------------------------------------------------------------------------
+- SDAPS -- csvdata_export
+------------------------------------------------------------------------------
