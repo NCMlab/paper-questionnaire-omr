@@ -7,6 +7,10 @@ import datetime
 import re
 import json
 import pandas as pd
+import requests
+
+from crypto_utils import PUBLIC_KEY_PATH, encrypt_json, load_public_key
+
 # =========================
 # FUNCTIONS
 # =========================
@@ -58,7 +62,7 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "csv_outputs")
 # rather than the system-wide "sdaps" (an unpatched v1.9.13 install).
 SDAPS = [sys.executable, os.path.expanduser("~/PaperQuestionnaires/sdaps/sdaps.py")]
 
-print("🚀 Starting SDAPS pipeline...")
+print("🚀 Starting SDAPS data extraction...")
 
 # =========================
 # LOOP THROUGH FOLDERS
@@ -82,35 +86,12 @@ for folder_name in os.listdir(INCOMING_DIR):
 
     images = [
         f for f in os.listdir(folder_path)
-        if f.lower().endswith((".jpg", ".png",".pdf"))
+        if f.lower().endswith((".jpg", ".png", ".pdf"))
     ]
 
     # 🚨 STOP if no images
     if not images:
         print("⚠️ No images found")
-        continue
-
-    # =========================
-    # STEP 1: ADD IMAGES
-    # =========================
-    for img in images:
-        img_path = os.path.join(folder_path, img)
-        print(f"  ➕ Adding {img}")
-        try:
-            subprocess.run(
-                SDAPS + ["add", project_path, "--convert", img_path], check=True)
-        except subprocess.CalledProcessError as e:
-            print(f"  ❌ Failed to add {img}: {e}")
-            continue
-
-    # =========================
-    # STEP 2: RECOGNIZE
-    # =========================
-    print("  🔍 Recognizing...")
-    try:
-        subprocess.run(SDAPS + ["recognize", project_path], check=True)
-    except subprocess.CalledProcessError as e:
-        print(f"  ❌ Failed to recognize {folder_name}: {e}")
         continue
 
     # =========================
@@ -124,12 +105,12 @@ for folder_name in os.listdir(INCOMING_DIR):
         continue
 
     # =========================
-    # STEP 4: GET SDAPS DATA 
+    # STEP 4: GET SDAPS DATA
     # =========================
     print("  📄 Retrieving SDAPS data...")
 
     data_files = glob.glob(os.path.join(project_path, "data_*.csv"))
-    
+
     # Create a new directory for this run based on timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     run_output_dir = os.path.join(output_path, timestamp)
@@ -145,9 +126,7 @@ for folder_name in os.listdir(INCOMING_DIR):
         print(f"  ✅ Copied: {latest_file} → {destination}")
     else:
         print("  ⚠️ No data files found")
-    
 
-    project_path = '/home/steffejr/PaperQuestionnaires/paper-questionnaire-omr/sdaps_pipeline/projects/gas-en'
     # Get the question variables from the .tex file
     questionnaire_path = os.path.join(project_path, "questionnaire.tex")
     questions = get_question_vars(questionnaire_path)
@@ -159,15 +138,14 @@ for folder_name in os.listdir(INCOMING_DIR):
     data_files = glob.glob(os.path.join(project_path, "data_*.csv"))
     latest_file = max(data_files, key=os.path.getctime)
     incoming_data = pd.read_csv(latest_file)
-    
+
     # Get the valid row and verified rows
     ValidVerifiedRows = ((incoming_data.verified == 1) & (incoming_data.valid == 1))
-    jCount = 0
     # Buid the JSON data
     outData = []
     rowCount = 0
     for row in ValidVerifiedRows:
-        if ( row ): 
+        if ( row ):
             tempData = {
                 "AllResults":
                     {
@@ -183,39 +161,55 @@ for folder_name in os.listdir(INCOMING_DIR):
 
             outData.append(tempData)
         rowCount += 1
-    
+
     rowCount = 0
     for row in ValidVerifiedRows:
-        if ( row ): 
+        if ( row ):
 
             for j in questions_keys:
                 outData[rowCount]['AllResults'][questions[j]] = questionnaire_choices[incoming_data.loc[3,j]]
                 outData[rowCount]['NumericResults'][j] = incoming_data.loc[3,j]
         rowCount += 1
 
-    json_array = json.dumps(outData, indent=4, default=str)
+    json_array = json.dumps(outData[1], indent=4, default=str)
     print(json_array)
     # =========================
     # How to get the data to a database?
     # =========================
-    # Ideally, this should be pushed to a data database instead of trying to squeeze 
+    # Ideally, this should be pushed to a data database instead of trying to squeeze
     # it into the JATOS dB.
 
-    # To get this into the JATOS dB, it also needs to pass through the scoring 
+    # To get this into the JATOS dB, it also needs to pass through the scoring
     # algorithms in NCM.
     # I would need some script that runs on the JATOS server that listens to incoming data.
     # It then parses what it reads.
-    # I think that the tex file needs to have the JATOS Component Name in its meta data 
+    # I think that the tex file needs to have the JATOS Component Name in its meta data
     # along with the questionnaire name.
     # These things need to have the same names as in the JATOS dB.
 
 
-    from jwcrypto import jwt, jwk
-    key = jwk.JWK(generate='oct', size=256)
-    key.export()
-    
     # =========================
-    # STEP 5: MOVE IMAGES
+    # STEP 5: ENCRYPT AND SEND TO JATOS
+    # =========================
+    print("  🔐 Sending data to JATOS...")
+
+    JATOS_PUBLIX_URL = "http://127.0.0.1:9000/publix/"
+    JATOS_STUDY_ID = "w0F1qNBOba0"
+    JATOS_QUERY = "?UsageType=DataReceive&Data={encrypted_data}"
+
+    public_key = load_public_key(PUBLIC_KEY_PATH)
+
+    rowCount = 0
+    for row in ValidVerifiedRows:
+        if (row):
+            encrypted_data = encrypt_json(outData[rowCount], public_key)
+            url = JATOS_PUBLIX_URL + JATOS_STUDY_ID + JATOS_QUERY.format(encrypted_data=encrypted_data)
+            response = requests.get(url)
+            print(f"    Row {rowCount}: status {response.status_code}")
+        rowCount += 1
+
+    # =========================
+    # STEP 6: MOVE IMAGES
     # =========================
     print("  📦 Moving processed images...")
     for img in images:
