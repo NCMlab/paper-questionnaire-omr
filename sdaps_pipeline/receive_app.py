@@ -49,6 +49,8 @@ def receive():
     except Exception as exc:
         return {"error": "decryption failed: %s" % exc}, 400
 
+    print(json.dumps(data, indent=4, default=str))
+
     os.makedirs(RECEIVED_DIR, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
     out_path = os.path.join(RECEIVED_DIR, "%s.json" % timestamp)
@@ -57,6 +59,7 @@ def receive():
 
     try:
         insert_into_jatos_db(data)
+        
     except Exception as exc:
         return {"error": "db insert failed: %s" % exc}, 500
 

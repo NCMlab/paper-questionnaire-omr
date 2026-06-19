@@ -76,6 +76,9 @@ for folder_name in os.listdir(INCOMING_DIR):
 
     print(f"\n📁 Processing: {folder_name}")
 
+    folder_name ='gas-en'
+
+
     project_path = os.path.join(PROJECTS_DIR, folder_name)
     output_path = os.path.join(OUTPUT_DIR, folder_name)
 
