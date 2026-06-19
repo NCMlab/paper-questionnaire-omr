@@ -194,9 +194,7 @@ for folder_name in os.listdir(INCOMING_DIR):
     # =========================
     print("  🔐 Sending data to JATOS...")
 
-    JATOS_PUBLIX_URL = "http://127.0.0.1:9000/publix/"
-    JATOS_STUDY_ID = "J79Fx7orRl2"
-    JATOS_QUERY = "?UsageType=DataReceive&Data={encrypted_data}"
+    RECEIVER_URL = "http://127.0.0.1:9001/receive"
 
     public_key = load_public_key(PUBLIC_KEY_PATH)
 
@@ -204,8 +202,7 @@ for folder_name in os.listdir(INCOMING_DIR):
     for row in ValidVerifiedRows:
         if (row):
             encrypted_data = encrypt_json(outData[rowCount], public_key)
-            url = JATOS_PUBLIX_URL + JATOS_STUDY_ID + JATOS_QUERY.format(encrypted_data=encrypted_data)
-            response = requests.get(url)
+            response = requests.post(RECEIVER_URL, data=encrypted_data)
             print(f"    Row {rowCount}: status {response.status_code}")
         rowCount += 1
 
